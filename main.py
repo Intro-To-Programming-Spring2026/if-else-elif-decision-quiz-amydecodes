@@ -1,33 +1,16 @@
-# Mini Project — Decision Quiz
-#Student Name: 
-# Topic: If / Elif / Else
-# Goal: Create a quiz that gives different feedback based on the user's answer
+# Amy Ramos-Mayorga
 
-print("Welcome to the Decision Quiz!")
-print("-----------------------------")
+print("Welcome to the Shooting Effecieny Quiz!")
 
-# TODO 1: Print your quiz question
-# Example: print("What is 2 + 2?")
-print("ENTER YOUR QUIZ QUESTION HERE")
+print("What is your field goal percentage?")
 
-# TODO 2: Ask the user for their answer
-# Convert to int() only if you are comparing numbers
-answer = input("Enter your answer: ")
+Percentage = input("What is your field goal percentage: ")
 
-# TODO 3: Create at least THREE possible outcomes using:
-# - if
-# - elif
-# - else
-#
-# Each outcome should print a different message
-# Example ideas:
-# - Correct answer
-# - Close answer
-# - Incorrect answer
+if percentage >= 50:
+  print ("You are shooting at or better than the average NBA field goal percentage!")
+elif percentage >= 43:
+  print ("You are shooting at or better than the average WNBA field goal percentage!")
+else:
+  print ("You are shooting less than average NBA and WNBA field goal percentage.")
 
-# Write your decision logic below
-
-
-
-# TODO 4: Print a closing message
-print("Thanks for taking the quiz!")
+print("Now go put some work in!")
