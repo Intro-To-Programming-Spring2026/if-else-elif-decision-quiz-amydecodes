@@ -4,7 +4,7 @@ print("Welcome to the Shooting Effecieny Quiz!")
 
 print("What is your field goal percentage?")
 
-Percentage = input("What is your field goal percentage: ")
+Percentage = int(input("What is your field goal percentage: "))
 
 if Percentage >= 50:
   print ("You are shooting at or better than the average NBA field goal percentage!")
